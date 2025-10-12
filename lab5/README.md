@@ -30,3 +30,19 @@ This is a overview of the Yatzy game and its rules using HTML and CSS
 - **Final = Upper subtotal + Upper bonus  + Lower subtotal**
 
 ## Screenshots
+
+**Headings:**
+![Heading](images/headings.png)
+
+**Scorecard:**
+![Scorecard](images/scorecard.png)
+
+**Dice:**
+![Dice](images/dice.png)
+
+**Buttons**
+![Buttons](images/buttons1.png)
+![Buttons](images/button2.png)
+
+**Section Headers**
+![Section Headers](images/sectionheaders.png)
