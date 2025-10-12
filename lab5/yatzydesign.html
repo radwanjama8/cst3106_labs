@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yatzy – Simple Mockups</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Yatzy</h1>
+    <div>
+      <button>Rules</button>
+    </div>
+  </header>
+
+  <main>
+    
+    <aside>
+      <h2>Scorecard</h2>
+
+      <h3>Upper Section (faces 1–6)</h3>
+      <ul>
+        <li><span>Ones</span><span>–</span></li>
+        <li><span>Twos</span><span>–</span></li>
+        <li><span>Threes</span><span>–</span></li>
+        <li><span>Fours</span><span>–</span></li>
+        <li><span>Fives</span><span>–</span></li>
+        <li><span>Sixes</span><span>–</span></li>
+        <li><span>Upper Bonus (≥63)</span><span>+50</span></li>
+      </ul>
+
+      <h3>Lower Section (combinations)</h3>
+      <ul>
+        <li><span>One Pair</span><span>–</span></li>
+        <li><span>Two Pairs</span><span>–</span></li>
+        <li><span>Three of a Kind</span><span>–</span></li>
+        <li><span>Four of a Kind</span><span>–</span></li>
+        <li><span>Small Straight (1–2–3–4–5)</span><span>15</span></li>
+        <li><span>Large Straight (2–3–4–5–6)</span><span>20</span></li>
+        <li><span>Full House (sum all dice)</span><span>–</span></li>
+        <li><span>Chance (sum all dice)</span><span>–</span></li>
+        <li><span>Yatzy (five of a kind)</span><span>50</span></li>
+        <li class="total"><span>Total</span><span>0</span></li>
+      </ul>
+    </aside>
+
+    
+    <section>
+      <h2>Dice</h2>
+
+      <div class="dice-grid">
+        
+        <div class="die">
+          <span class="pip center"></span>
+        </div>
+        
+        <div class="die">
+          <span class="pip top-left"></span>
+          <span class="pip bottom-right"></span>
+        </div>
+        
+        <div class="die">
+          <span class="pip top-left"></span>
+          <span class="pip center"></span>
+          <span class="pip bottom-right"></span>
+        </div>
+        
+        <div class="die">
+          <span class="pip top-left"></span>
+          <span class="pip top-right"></span>
+          <span class="pip bottom-left"></span>
+          <span class="pip bottom-right"></span>
+        </div>
+        
+        <div class="die">
+          <span class="pip top-left"></span>
+          <span class="pip top-right"></span>
+          <span class="pip center"></span>
+          <span class="pip bottom-left"></span>
+          <span class="pip bottom-right"></span>
+        </div>
+      </div>
+
+      <div>
+        <button>Roll</button>
+        <label><input type="checkbox" /> Hold</label>
+      </div>
+
+      <p>Yatzy game mockup, no logic implemented.</p>
+    </section>
+  </main>
+</body>
+</html>

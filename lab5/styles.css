@@ -1,0 +1,81 @@
+/* page */
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+/* header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+}
+
+/* layout */
+main {
+  max-width: 1000px;
+  margin: 16px auto;
+  padding: 0 12px;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 3fr 2fr; /* scorecard left, dice right */
+}
+
+
+/* panels */
+section, aside {
+  background: #0b0b0b;
+  border: 1px solid #222;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+/* section titles*/
+h2 { color: #f00; margin: 0 0 8px; }
+
+/* lists */
+ul { list-style: none; padding: 0; margin: 0; }
+li { display: flex; justify-content: space-between; padding: 6px 8px; }
+.total { color: #ff9800; font-weight: 700; } 
+
+/* buttons*/
+button {
+  background: #ff9800;
+  color: #000;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+/* dice */
+.dice-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 48px);
+  gap: 10px;
+  margin-bottom: 28px;
+}
+.die {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background: #111;
+  border-radius: 6px;
+}
+.pip {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #fff;     
+  border-radius: 50%;
+}
+/* positions */
+.pip.center       { top: 20px; left: 20px; }  
+.pip.top-left     { top: 8px; left: 8px; }
+.pip.top-right    { top: 8px; right: 8px; }
+.pip.bottom-left  { bottom: 8px; left: 8px; }
+.pip.bottom-right { bottom: 8px; right: 8px; }
